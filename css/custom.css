@@ -5,6 +5,6 @@
 	Overwriting Default Theme Styles for Better Hanlding Updates
 -----------------------------------------------------------------*/
 
-
-
-
+.invert {
+  filter: invert(100%);
+}
