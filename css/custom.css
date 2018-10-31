@@ -8,3 +8,22 @@
 .invert {
   filter: invert(100%);
 }
+
+@media only screen and (max-width: 990px) {
+  .portfolio-desc {
+    margin-left: 2%;
+    width: 96%;
+  }
+
+  .portfolio-desc p {
+    margin-right: 2% !important;
+  }
+
+  .portfolio-desc li {
+    margin-right: 2% !important;
+  }
+
+  .margin-compensate {
+    margin-right: 2% !important;
+  }
+}
